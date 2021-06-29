@@ -1,9 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poppins:ital,wght@1,600&display=swap');
+
 .start-area-image {
     background-image: url(../images/teloscope_header_background.jpg);
-    position: static;
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 55vh;
     background-color: rgba(0, 0, 0, 0.7)
+}
+.heading{
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: gold;
+    width: 50%;
+    display: inline-block;
+}
+
+.call-to-action{
+    width: 40vw;
+    margin: 5% 5% 0 0;
+    float: right;
+    display: inline-block;
+    background-color: rgba(219, 245, 105, 0.7);
+    border-radius: 7.5%;
+    padding-bottom: 10px;
+    font-family: 'Akaya Kanadaka', cursive;
 }
