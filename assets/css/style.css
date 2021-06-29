@@ -1,0 +1,9 @@
+.start-area-image {
+    background-image: url(../images/teloscope_header_background.jpg);
+    position: static;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    background-color: rgba(0, 0, 0, 0.7)
+}
