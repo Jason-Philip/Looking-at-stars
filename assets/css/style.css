@@ -40,7 +40,12 @@
     text-decoration: none;
     color: blue; 
 }
-#nav li:hover {
+
+#active{
+    background-color: rgb(204, 218, 79);
+}
+
+#nav .active, #nav li:hover {
     background-color: rgb(204, 218, 79) ;
 }
 
