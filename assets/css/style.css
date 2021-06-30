@@ -20,9 +20,26 @@
     width: 40vw;
     margin: 5% 5% 0 0;
     float: right;
-    display: inline-block;
     background-color: rgba(219, 245, 105, 0.7);
     border-radius: 7.5%;
     padding-bottom: 10px;
     font-family: 'Akaya Kanadaka', cursive;
+}
+
+#nav {
+    font-size: 130%;
+    background-color: rgb(226, 236, 134);
+    padding: 4px 0 4px 35%;
+}
+#nav li {
+    padding: 0 20px;
+    background-color: rgb(245, 243, 158);
+    border-radius: 8%;
+}
+#nav a {
+    text-decoration: none;
+    color: blue; 
+}
+#nav li:hover {
+    background-color: rgb(204, 218, 79) ;
 }
