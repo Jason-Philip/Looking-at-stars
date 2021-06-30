@@ -43,3 +43,12 @@
 #nav li:hover {
     background-color: rgb(204, 218, 79) ;
 }
+
+footer {
+    background-color:  rgb(226, 236, 134);
+    padding-top: 10px;
+}
+
+footer div div {
+    border-left: solid 0.75px black;
+}
