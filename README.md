@@ -72,8 +72,6 @@ A simple site to allow new and amateur astronomers to expand their knowledge of 
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
@@ -205,6 +203,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
+-   The README.md is based off a template from code Institute.
+
 -   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
@@ -213,10 +213,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
--   All content was written by the developer.
+-   The teloscope_header_background.jpg was sourced from [Shutterstock](https://www.shutterstock.com/image-illustration/telescope-on-grass-under-stars-background-100899094)
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
+-   All constellation jpgs were found and saved from [Star-name-Registery](https://star-name-registry.com/) 
 
+-   Content and Information for constellation details and names were found at [Constellation-Guide](https://www.constellation-guide.com/) and [Nine-Planets](https://nineplanets.org/)
 ### Media
 
 -   All Images were created by the developer.
@@ -226,3 +227,5 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor for continuous helpful feedback.
 
 -   Tutor support at Code Institute for their support.
+
+-   Student care for keeping in touch about deadlines.

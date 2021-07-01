@@ -5,6 +5,8 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*Header styling*/
 .start-area-image {
     background-image: url(../images/teloscope_header_background.jpg);
     background-position: left center;
@@ -31,6 +33,7 @@ body{
     font-family: 'Akaya Kanadaka', cursive;
 }
 
+/* Navigation Menu Styling*/
 #nav {
     font-size: 130%;
     background-color: rgb(226, 236, 134);
@@ -55,6 +58,7 @@ body{
     background-color: rgb(204, 218, 79) ;
 }
 
+/* Footer area styling */
 footer {
     background-color:  rgb(226, 236, 134);
     padding-top: 10px;
@@ -64,6 +68,8 @@ footer div div {
     border-left: solid 0.75px black;
 }
 
+
+/*Content Area */
 .bg-color-sky{
     background-color: #3480cc;
 }
