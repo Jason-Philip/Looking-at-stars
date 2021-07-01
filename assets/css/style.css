@@ -57,3 +57,11 @@ footer {
 footer div div {
     border-left: solid 0.75px black;
 }
+
+.bg-color-sky{
+    background-color: #3480cc;
+}
+
+img {
+    width: 100%;
+}
