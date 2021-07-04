@@ -45,19 +45,16 @@
                 <p>Please fill in this form so we can get in contact.</p>
                 <hr>
                 <label for="fname">First Name</label>
-                <input type="text" name="fname" required>
+                <input type="text" name="fname" class="full-width-text" required>
 
                 <label for="lname">Last Name</label>
-                <input type="text" name="lname" required>
+                <input type="text" name="lname" class="full-width-text" required>
 
                 <label for="email"><b>Email</b></label>
-                <input type="email" placeholder="Enter Your Email" name="email" required>
-            
-                <label>Offers of Trips and Events</label> 
-                <input type="checkbox" checked="checked" name="offers">
+                <input type="email" placeholder="Enter Your Email" name="email" class="full-width-text" required>
 
                 <label for="interested-trip">Are you interested in any of our upcoming trips?</label>
-                <input type="text" list="colors" id="interested-trip" name="trip">
+                <input type="text" list="colors" id="interested-trip" name="trip" class="full-width-text">
                 <datalist id="colors">
                     <option value="January- African Safari"></option>
                     <option value="June- Iceland Aurora Adventure"></option>
@@ -66,6 +63,10 @@
                     <option value="None"></option>
                 </datalist>
 
+                <input type="checkbox" checked="checked" name="offers">
+                <label>Get offers of Trips and Events</label>                 
+                
+                <hr>
                 <button type="button" onclick="document.getElementById('signup-form').style.display='none'">Cancel</button>
                 <button type="submit">Sign Up</button>
             
@@ -114,15 +115,5 @@
             </div>
         </div>
     </footer>
-    <!--Modal javascript taken from Wsschool see README--> 
-    <div id="signup-form" class="modal">
-        <span onclick="document.getElementById('signup-form').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <form action="anywhere" method="POST">
-          <div class="container">
-              
-            
-          </div>
-        </form>
-    </div>
 </body>
 </html>
