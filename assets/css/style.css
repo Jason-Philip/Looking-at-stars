@@ -38,9 +38,10 @@ body{
 #nav {
     font-size: 130%;
     background-color: rgb(226, 236, 134);
-    padding: 4px 0 4px 35%;
+    padding: 4px 0 4px 35vw;
     margin-bottom: 0;
 }
+
 #nav li {
     padding: 0 20px;
     background-color: rgb(245, 243, 158);
@@ -136,7 +137,7 @@ img {
 
 /*Form*/
 #signup-form {
-    background-color: #3de2ee;
+    background-color: #62a6ff;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -158,11 +159,42 @@ form {
     display: inline-block;
     border: none;
     background: #ffffff;
-  }
+}
   
-
-  input:focus {
+input:focus {
     background-color: #ddd;
-  }
+}
 
+form {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 15px 0px;
+    margin: 10px 5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 28px;
+}
   
+button:hover {
+    background-color: #038f5b;
+}
+
+.cancel {
+    background-color: rgb(215, 85, 85);
+}
+
+.cancel:hover {
+    background-color:rgb(166, 70, 70)
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
