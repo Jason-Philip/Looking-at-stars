@@ -89,11 +89,20 @@ img {
     text-align: center;
 }
 
-.bg-color-turk{
+.bg-color-turk-box{
     background-color: rgb(164, 239, 231);
+    border-radius: 5%;
+    border: black 1px solid;
+    margin-bottom: 10px;
 }
 
-.trips h5{
+.trips h5,.trips h4, .sign-up h4{
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 36px;
+}
+.sign-up{ 
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 26px;
+    margin-bottom: 10px;
 }
