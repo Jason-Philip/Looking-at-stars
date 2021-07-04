@@ -88,3 +88,12 @@ img {
     font-size: 46px;
     text-align: center;
 }
+
+.bg-color-turk{
+    background-color: rgb(164, 239, 231);
+}
+
+.trips h5{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
