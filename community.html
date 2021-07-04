@@ -19,7 +19,7 @@
             <div class="container call-to-action">
                 <h2>Don't Miss Out!</h2>
                 <h3>Join our community for trips, excursions, learning material and social gatherings all year round.</h3>
-                <button class="btn btn-success" type="button">Sign-Up</button>
+                <button onclick="document.getElementById('signup-form').style.display='block'" class="btn btn-success" type="button">Sign-Up</button>
             </div>
         </div>
         <nav>
@@ -36,6 +36,44 @@
             </ul>
         </nav>
     </header>
+    <!--Modal javascript taken from Wsschool see README--> 
+    <div id="signup-form" class="modal">
+        <span onclick="document.getElementById('signup-form').style.display='none'" class="close" title="Close Sign-Up">&times;</span>
+        <form action="anywhere" method="POST">
+            <div class="container">
+                <h1>Join the Community and Sign Up</h1>
+                <p>Please fill in this form so we can get in contact.</p>
+                <hr>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" class="full-width-text" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" class="full-width-text" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="email" placeholder="Enter Your Email" name="email" class="full-width-text" required>
+
+                <label for="interested-trip">Are you interested in any of our upcoming trips?</label>
+                <input type="text" list="colors" id="interested-trip" name="trip" class="full-width-text">
+                <datalist id="colors">
+                    <option value="January- African Safari"></option>
+                    <option value="June- Iceland Aurora Adventure"></option>
+                    <option value="July- Great Observatories of the American West"></option>
+                    <option value="All of the trips"></option>
+                    <option value="None"></option>
+                </datalist>
+
+                <input type="checkbox" checked="checked" name="offers">
+                <label>Get offers of trips, events and learning programmes</label>                 
+                
+                <hr>
+                <button type="submit">Sign Up</button>
+                <button class="cancel" type="button" onclick="document.getElementById('signup-form').style.display='none'">Cancel</button>
+                
+            
+            </div>
+        </form>
+    </div>
     <section class="bg-color-sky">
         <div>
             
@@ -80,7 +118,7 @@
             <div class="col-md-4 sign-up">
                 <h4>How to Get Started!</h4>
                 <p>Interested and excited we are too.  Time to join up with our community.  We want you to learn, expand your horizons and make new friends along the way.  All you need to do is fill out the sign-up for which will let us get in contact and tailor our content just for you!</p>
-                <button class="btn btn-success" type="button">Sign-Up</button>
+                <button onclick="document.getElementById('signup-form').style.display='block'" class="btn btn-success" type="button">Sign-Up</button>
             </div>
         </div>
     </section>
