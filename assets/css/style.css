@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 
@@ -96,7 +97,7 @@ img {
     margin-bottom: 10px;
 }
 
-.trips h5,.trips h4, .sign-up h4{
+.trips h5,.trips h4, .sign-up h4, .greetings h3{
     text-align: center;
     font-family: 'Poppins', sans-serif; 
     font-size: 36px;
@@ -105,4 +106,29 @@ img {
     font-family: 'Akaya Kanadaka', cursive;
     font-size: 26px;
     margin-bottom: 10px;
+}
+
+.greetings h4 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 30px;
+    margin-top: px;
+}
+
+.greetings p{
+    margin: 5px 20px 0 20px;
+    padding-bottom: 5px;
+}
+
+.top-space{
+    padding-top: 10px;
+}
+
+.greetings{
+    padding-bottom: 30px;
+}
+
+.greetings a{
+    color: red;
+    font-size: 18px;
 }
