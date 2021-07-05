@@ -56,6 +56,10 @@ body{
     padding: 0 20px;
 }
 
+#nav {
+    text-align: center;
+}
+
 #active{
     background-color: rgb(204, 218, 79);
 }
@@ -142,7 +146,7 @@ img {
     text-align: center;
     font-family: 'Poppins', sans-serif; 
     font-size: 30px;
-    margin-top: px;
+    margin-top: 10px;
 }
 
 .greetings p{
@@ -161,6 +165,10 @@ img {
 .greetings a{
     color: rgb(197, 176, 38);
     font-size: 18px;
+}
+
+#wrapper {
+    text-align: center;
 }
 
 
