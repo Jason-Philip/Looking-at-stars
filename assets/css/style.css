@@ -6,9 +6,8 @@ body{
     font-size: 16px;
 }
 
-
 /*Header styling*/
-.start-area-image {
+.start-area-image {       /*Image is from Shutterstock*/
     background-image: url(../images/teloscope_header_background.jpg);
     background-position: left center;
     background-repeat: no-repeat;
@@ -50,6 +49,7 @@ body{
     border-radius: 8%;
     margin: 0 auto;   
 }
+
 #nav a {
     text-decoration: none;
     color: blue; 
@@ -81,6 +81,7 @@ footer div div {
 .no-margin{
     margin-bottom: 2px;
 }
+
 .learn-more {
     font-size: 14px;
     margin: 8px;
@@ -136,6 +137,7 @@ img {
     font-family: 'Poppins', sans-serif; 
     font-size: 36px;
 }
+
 .sign-up{ 
     font-family: 'Akaya Kanadaka', cursive;
     font-size: 26px;
@@ -170,7 +172,6 @@ img {
 #wrapper {
     text-align: center;
 }
-
 
 /*Form*/
 #signup-form {
