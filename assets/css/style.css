@@ -78,8 +78,13 @@ footer div div {
     margin-bottom: 2px;
 }
 .learn-more {
-    font-size: x-small;
-    margin: 0;
+    font-size: 14px;
+    margin: 8px;
+    text-align: center;
+}
+
+.align-center{
+    text-align: center;
 }
 
 /*Content Area */
@@ -154,7 +159,7 @@ img {
 }
 
 .greetings a{
-    color: red;
+    color: rgb(197, 176, 38);
     font-size: 18px;
 }
 
@@ -236,5 +241,6 @@ input[type=checkbox] {
         width: 100%;    /*Two widths added as fit-content failed to work on firefox when tested*/
         width: fit-content;
     }
+
 }
 
