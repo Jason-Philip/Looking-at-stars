@@ -1,10 +1,10 @@
 <h1 align="center">Looking at Stars</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://jason-philip.github.io/Looking-at-stars/)
 
-A simple site to allow new and amateur astronomers to expand their knowledge of the night-sky and constellation, with particular focus on offerring a place on a constellation viewing trip.
+A simple site to allow new and amateur astronomers to expand their knowledge of the night-sky and constellation, with secondary focus on encouraging the viewer to get involved and join the active community.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="assets/images/mockup.png"></h2>
 
 ## User Experience (UX)
 
@@ -14,40 +14,41 @@ A simple site to allow new and amateur astronomers to expand their knowledge of 
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to interested by new and interesting astronomy content.
-
+        3. As a First Time Visitor, I want to interested by accessable astronomy content.
+        4. As a First Time Visitor, I want to know my time will be well spent viewing well thoughout content.
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to better understand the constellation viewing trip being offerred.
+        1. As a Returning Visitor, I want to better understand the trips being offerred.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        3. As a Returning Visitor, I want to sign-up after considerring.
+        4. As a Returning Visitor, I want to find new material to study.
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check if there is any new learning content or scheaduled trips.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        2. As a Frequent User, I want to refresh on the informative information
+        3. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website or organisation.
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Code Insititue red, and white.
+        -   The two main colours used are yellow, the color of the stars and light blue taken from the main image using the eyedropper tool, so the color scheme is consistent.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   Three fonts are used throughout the whole website: Roboto for the majority of content and smaller text, Poppins was used for Headers and titles and finally Akaya Kanadaka was used for sign-up areas to give a sense of personality and fun.  Sans Serif was the fallback font for Poppins and Roboto and cursive for Akaya Kanadaka in case for any reason the font isn't being imported into the site correctly. 
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   To convey immediately the subject of the website, the main background image used on all pages show both star and observation of stars through the teloscope. As previously stated the color of the background image is used throughout.  Many constellation images of a similar type are used on the learning zone page, the similar but distinctive look allows the viewer to not get overwhelmed and easily conveys informationm; here the user can pick the image that interests them the most before reading the text.
 
 *   ### Wireframes
+    Wireframes were created at the start creating two responsive design for each page, allowing for a solid plan before development began.
+    -   Home Page Wireframe - [Phone](assets/wireframes/home-mobile.png) -[Tablet](assets/wireframes/home-tablet.png)  -[Desktop](assets/wireframes/home-desktop.png) 
 
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Learning Zone Wireframes - [Phone](assets/wireframes/learningzone-phone.png) -[Tablet](assets/wireframes/learningzone-tablet.png)  -[Desktop](assets/wireframes/learningzone-desktop.png)
+        
+    -   Community Page Wireframe - [Phone](/workspace/Looking-at-stars/assets/wireframes/community-phone.png) -[Tablet](/workspace/Looking-at-stars/assets/wireframes/community-tablet.png)  -[Desktop](/workspace/Looking-at-stars/assets/wireframes/community-desktop.png)
 
 ## Features
 
 -   Responsive on all device sizes
 
--   Interactive elements
+-   Interactive elements of video and sign-up
 
 ## Technologies Used
 
@@ -55,101 +56,119 @@ A simple site to allow new and amateur astronomers to expand their knowledge of 
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [javascript](https://en.wikipedia.org/wiki/JavaScript) limited use
 
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on several buttons to indicate a clear action to the user.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the three main fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - Font Awesome was used in the footer throughout the website to add icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [Ami.responsivedesing](http://ami.responsivedesign.is)
+    - Am I responsive site was used as a presentation aid in this readme file.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results](assets/images/html-valid.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](assets/images/css-valid.png)
+NB-The two errors in the css are not from my style.css file.
 
 ### Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site.
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. The main image clearly demonstrates the topic being coverred.
+        2. The title clearly states the purpose of the site.
+        3. The about us section again clearly spells out the purpose.
+        4. The seconday purpose also is clear as the sign up call to action appears informing the user of this possibilty.
 
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+    2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
 
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+        1. The simple site is very easy to navigate using the centerred navbar, which has clear names as to the places they lead.
+        2. For desktop and tablet users the sign up call to action is at the top of the page making it clear where to press if this is the desired course.
+        3. The individual pages are kepts short and limited to a single field making sure the user is never confused about where the information they want is.
 
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+    3. As a First Time Visitor, I want to interested by accessable astronomy content.
+        1. Once the purpose of the website is clear.  The next section on the home page gives a introduction to the constellation material so the user can get started immediately
+        2. The first two pages of the site give priority to the astronomy information and learning material.  As shown by the position in the menu. 
+        3. On the home page users will quickly see a video, and be reasuured that there is multiple learning media to consume, not just all writing.
 
+    4. As a First Time Visitor, I want to know my time will be well spent viewing well thoughout content.
+        1. The home page is broken down into multiple digestible chunks of paragraphs giving those who want to skim read to decide if this is for them a dircted route.  Each paragraph makes clear its purpose near the start.
+        2. For those who trvel to the learning zone the layout clearly show what is available to learn with constellation titles.
+        3. On the home page users will quickly see a video, and be reasuured that there is multiple learning media to consume, not just all writing.
 -   #### Returning Visitor Goals
 
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
+    1. As a Returning Visitor, I want to better understand the trips being offerred.
 
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
+        1. In the community page the trips area takes priority with a new color and boxed layout introduced to draw the user to it.
+        2. If the user feels more information is needed on the trip two options are presented.  Get in contact using the email in the footer, or sign up as the trips initial paragraph makes clear and get more detailed offers.
 
     2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        1. The footer gives multiple ways to get in contact on the left and right.  Email or social media, as is drawn by the icons.
+        2. The sign up form states that the site will be in touch aftercompletion of the form.
 
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
+    3. As a Returning Visitor, I want to sign-up after considerring.
+        1. The sign up button can be found at the top of the screen so is easily accessible for users.
+        2. Furthermore, as would be expected another signup is found in the community page with more detailed information of whats involed to encourage further action.
+
+    4. As a Returning Visitor, I want to find new material to study.
+        1. The footer includes suggestions for other astronomy topics along with a link to take you to them
+        2. If there was new content it could be navigated to through the learning zone; where a user would expect it.
+        3.  Links are included in the main text so that better understanding can be gained.
+            
 
 -   #### Frequent User Goals
 
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+    1. As a Frequent User, I want to check if there is any new learning content or scheaduled trips.
 
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
+        1. The user would already be comfortable with the website layout and can easily navigate using the navbar to the correct page.
 
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
+    2. As a Frequent User, I want to refresh on the informative information
 
-        1. The user would already be comfortable with the website layout and can easily click the blog link
+        1. The video contains many terms which may be only nnoticed on multiple watches and will quickly enhance and refresh any lost knowledge.
+        2. The learning zone offers quick recap on a large range of constellations.
 
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+    3. As a Frequent User, I want to sign up so that I am emailed any major updates and/or changes to the website or organisation.
+        1. A frequent user will want to connect with all remaining outlets social media and email as well as signing up this is highlighted in the footer with icons.  
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The two primary places of testing were on developer tools on mozilla firefox and microsoft edge, using the element selector most positioning, margin and padding issues were tested here first.
+-   The Website was tested on Google Chrome, Internet Explorer, and Safari browsers also.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX and resized from a large range of sizes in web developer tools.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   In mozilla firefox the preferred method of resizing the image {width: fit-content;} at smaller screens failed to work, requiering the alternative method of {width: 100%}.
+
+### Interesting Issues Discovered and Addressed
+
+-   When adding the form entire form acted as a link to instagram. This helped discover a flaw in the code that the annchor elements in the footer didn't have closing tags.  
+
+-   When creating the bootstrap grid in the trips section, in an attempt to differentiate between the different month sections increasing the margin of a column caused the creation of a new row.  To avoid this a 1 px solid border was added to each colomn section and border-radius which created a nice seperation.
+
+-   Initially the navigation menu's buttons were increased in size by incresing the size of the li (list element) padding.  Appearance wise this worked, however created a section of button that could be pressed without response.  A switch of the padding size from the li to a (anchor element) gfeatly improved UX with a easier to click nav button.
+
+-   To center the video in a iframes element requiered the applying of {text-align:center} to a parent div called wrapper (as it wrapped around the iframe).
+applying the text-align to the iframe using an element selector did ot work.
 
 ## Deployment
 
@@ -218,9 +237,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   All constellation jpgs were found and saved from [Star-name-Registery](https://star-name-registry.com/) 
 
 -   Content and Information for constellation details and names were found at [Constellation-Guide](https://www.constellation-guide.com/) and [Nine-Planets](https://nineplanets.org/)
+
+-   [Nasa](Also provided much of the information required to write the text for the home page)
 ### Media
 
--   All Images were created by the developer.
+-   The incredibly informative video on celestial sphere was produced and uploaded on youtube by [Kurdistan  Planetarium](https://www.youtube.com/embed/1Toya19H12w)
 
 ### Acknowledgements
 
