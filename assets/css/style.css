@@ -45,7 +45,7 @@ body{
 }
 
 #nav li {
-    padding: 0 20px;
+    padding: 0 0px;
     background-color: rgb(245, 243, 158);
     border-radius: 8%;
     margin: 0 auto;   
@@ -53,6 +53,7 @@ body{
 #nav a {
     text-decoration: none;
     color: blue; 
+    padding: 0 20px;
 }
 
 #active{
