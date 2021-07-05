@@ -40,7 +40,7 @@ body{
 #nav {
     font-size: 130%;
     background-color: rgb(226, 236, 134);
-    padding: 4px 0% 4px 35vw;
+    padding: 4px 0% 4px 0;
     margin-bottom: 0;
 }
 
@@ -231,6 +231,8 @@ input[type=checkbox] {
         text-align: center;
         margin: auto;
     }
-
+    iframe {
+        width: fit-content;
+    }
 }
 
